@@ -32,7 +32,7 @@ input::placeholder {font-size:12px}
     text-align: center;
     font-size: 10px;
     padding: 2px 12px;
-    background: #000000;
+    background: #ffcc00;
     color: white;
     border-radius: 3px;
     margin: 0 auto;
@@ -54,7 +54,7 @@ input::placeholder {font-size:12px}
     color: #1aab2c;
 }
 .card{width: 400px;
-    background: repeating-linear-gradient(45deg, #000000, transparent 50%), repeating-linear-gradient(-30deg, #ffffff, #5f6057 59%);
+    background: repeating-linear-gradient(45deg, #fbc707, transparent 50%), repeating-linear-gradient(-30deg, #fbc707, yellow 59%);
     overflow: hidden;
     margin: 0px auto 10px;
     z-index: 0;
@@ -69,9 +69,9 @@ input::placeholder {font-size:12px}
 	.card_content img{height: 100px;
     width: 100px;
     border-radius: 100%;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 3px;
-    background: white;}
+    background: #1d4e9e;}
 	.card_content2 {z-index: 2;
     text-align: left;
     font-weight: 400;
@@ -87,22 +87,22 @@ input::placeholder {font-size:12px}
 	.card_content2 p{margin: 6px;
     text-transform: capitalize;
     font-size: 12px;
-    color: #ffffff;}
+    color: black;}
 
 .dis_flex {display: block;
     padding: 0px;
     width: auto;
     margin: 20px;
-    background: white;
+    background: #1d4e9e;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #00000029;
+    box-shadow: 0px 0px 10px 0px #dec10829;
 }
 .dis_flex .link_btn {border-radius: 2px;
     width: min-content;
     font-size: 11px;
     display: inline-block;
-    color: #5a5a5a;
+    color: #ffffff;
     padding: 15px 4px;
     background: none;
     text-align: center;
@@ -117,7 +117,7 @@ input::placeholder {font-size:12px}
 
 .contact_details {
         padding: 17px 20px 33px;
-    background: linear-gradient(0deg,#ffffff00 0%,white,#ffffff , white 102%, #100f0f 13%);
+    background: linear-gradient(0deg,#1d4e9e 0%,#1d4e9e,#1d4e9e , #1d4e9e 102%, #100f0f 13%);
     margin: 0px 27px;
     border-radius: 12px;
     box-shadow: 0px -12px 10px 0px #0000001a;
@@ -139,7 +139,7 @@ input::placeholder {font-size:12px}
     transform: rotate(0deg);}
 .contact_details .contact_d p{margin: 0px;
     font-weight: 500;
-    color: #313131;
+    color: white;
     font-size: 12px;
     max-width: 260px;
     padding: 10px;}
@@ -173,7 +173,7 @@ input::placeholder {font-size:12px}
 }
 
 .dis_flex .big_btns {background: white;
-    color: #000000;
+    color: #ffcc00;
     border-radius: 3px;
     font-size: 14px;
     padding: 14px;
@@ -182,7 +182,7 @@ input::placeholder {font-size:12px}
     margin: 3px 0px;
     width: 139px;
     font-weight: 500;
-    box-shadow: 0px 0px 10px 0px #0000002e;
+    box-shadow: 0px 0px 10px 0px #f8d2002e;
 
 }
 .dis_flex .big_btns i{}
@@ -221,7 +221,7 @@ color:white}
     color: white;}
 
 
-.card2 {background: white;
+.card2 {background: #1d4e9e;
     width: 400px;
     margin: 10px;
     padding: 0px;
@@ -230,15 +230,15 @@ color:white}
 .card2 h2{}
 .card2 h3{text-align: left;
     font-size: 20px;
-    background: repeating-linear-gradient(45deg, #000000, #ffffffde 54%), repeating-linear-gradient(148deg, #FF5722, transparent 59%);
+    background: repeating-linear-gradient(45deg, yellow, #fbc707 54%), repeating-linear-gradient(148deg, yellow, transparent 59%);
     font-weight: 500;
     letter-spacing: -1px;
     width: -webkit-fill-available;
     border-bottom: 3px solid;
     padding: 10px;
     margin: 0px 0px;
-    text-shadow: 0px 0px 7px #585858;
-    color: white;}
+    text-shadow: 0px 0px 7px #ffffff;
+    color: black;}
 .card2 form{}
 .card2 form input,.card2 form textarea{width: -webkit-fill-available;
     font-size: 14px;
@@ -248,9 +248,9 @@ color:white}
     border-bottom: 2px solid #000000;
     margin: 4px 26px;
     resize: vertical;
-    background: #00000005;}
+    background: #ffcc00;}
 .card2 form input[type=submit]{color: white;
-    background: #000000;
+    background: #ffcc00;
     text-transform: uppercase;
     font-weight: 900;}
 
@@ -291,7 +291,7 @@ color:white}
 /*prouct services*/
 
 .product_s {  text-align: center;
-    background: #fbf7d9;
+    background: #1d4e9e;
     padding: 10px;
     width: 88%;
     border-radius: 7px;
@@ -322,11 +322,13 @@ margin: 20px auto;}
 #about_us {}
 #about_us h3{}
 #about_us p{       white-space: pre-line;
+    color: white;
     font-size: 12px;
     font-weight: 500;
     line-height: 2;
     padding: 10px 20px;
     margin: 0;}
+    
 
 /*payment */
 
@@ -347,10 +349,10 @@ margin: 20px auto;}
 
 
 
-.menu_bottom {background: repeating-linear-gradient(45deg, #000000, #000000ce 100px), repeating-linear-gradient(-45deg, #ffffff, transparent 100px);
+.menu_bottom {background: repeating-linear-gradient(45deg, #fbc707, yellow 100px), repeating-linear-gradient(-45deg, blue, transparent 100px);
     width: -webkit-fill-available;
     text-align: center;
-    color: #ffffff;
+    color: black;
     position: fixed;
     bottom: 0;
     left: 0;

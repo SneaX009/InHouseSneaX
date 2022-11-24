@@ -54,7 +54,7 @@ header .logo{    display: flex}
 header .logo h3{margin: 19px 0px;
     font-size: 32px;
     font-weight: 400;
-    color: #454b50;
+    color: white;
     letter-spacing: -2px;
     text-transform: capitalize;}
 header .logo img{width: 81px;
@@ -67,7 +67,7 @@ header .head_txt h3{   margin: 0px;
     font-weight: 500;
     padding: 29.5px 11px;
     cursor: pointer;
-    color: #544b4b;
+    color: white;
     font-size: 12px;
     letter-spacing: 0px;
 
